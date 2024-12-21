@@ -49,5 +49,8 @@
 	},
 	"patchedDependencies": {
 		"ink@5.1.0": "patches/ink@5.1.0.patch"
-	}
+	},
+	"trustedDependencies": [
+		"@biomejs/biome"
+	]
 }
