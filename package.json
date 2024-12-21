@@ -16,13 +16,7 @@
 	},
 	"license": "MIT",
 	"description": "📊 Get information about a Node.js project in the terminal in the beautiful TUI",
-	"keywords": [
-		"cli",
-		"nodejs",
-		"terminal",
-		"tui",
-		"project-info"
-	],
+	"keywords": ["cli", "nodejs", "terminal", "tui", "project-info"],
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/cli-stuff/apr"
@@ -30,10 +24,15 @@
 	"homepage": "https://github.com/cli-stuff/apr",
 	"scripts": {
 		"lint": "biome check --fix",
+		"prepare": "husky",
 		"format": "biome format --write .",
+		"test": "FORCE_COLOR=true bun test",
 		"preversion": "bun run format && git add .",
 		"build": "bun build ./src/index.tsx --minify --outdir ./dist --target node --footer '// Built with Bun! (https://bun.sh)' --external=yoga-wasm-web",
 		"prepublishOnly": "bun run build"
+	},
+	"lint-staged": {
+		"*": "bun run format"
 	},
 	"dependencies": {
 		"@types/react": "^19.0.2",
@@ -45,12 +44,12 @@
 		"@biomejs/biome": "^1.9.4",
 		"@schemastore/package": "^0.0.10",
 		"@types/bun": "^1.1.14",
-		"ink-testing-library": "^4.0.0"
+		"husky": "^9.1.7",
+		"ink-testing-library": "^4.0.0",
+		"lint-staged": "^15.2.11"
 	},
 	"patchedDependencies": {
 		"ink@5.1.0": "patches/ink@5.1.0.patch"
 	},
-	"trustedDependencies": [
-		"@biomejs/biome"
-	]
+	"trustedDependencies": ["@biomejs/biome"]
 }
