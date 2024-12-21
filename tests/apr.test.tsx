@@ -13,6 +13,7 @@ const pkg: JSONSchemaForNPMPackageJsonFiles = await import(
 	}
 )
 
+// This is enough
 test('just works', () => {
 	const { lastFrame } = render(<ProjectInfo pkg={pkg} />)
 	expect(lastFrame()).toMatchSnapshot()
