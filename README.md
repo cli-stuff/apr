@@ -1,5 +1,11 @@
+<!-- markdownlint-disable first-line-h1 -->
+[![NPM Version](https://img.shields.io/npm/v/aboutproject?logo=npm&logoColor=212121&label=version&labelColor=FAFAFA&color=212121)](https://npmjs.com/package/aboutproject) ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/cli-stuff/apr/test.yml?label=tests&labelColor=212121&link=https%3A%2F%2Fgithub.com%2Fcli-stuff%2Fapr%2Factions%2Fworkflows%2Ftest.yml) ![Static Badge](https://img.shields.io/badge/%F0%9F%8C%88_Created_with-ink-fafafa?labelColor=212121&link=bun.sh) ![Static Badge](https://img.shields.io/badge/Built_with-Bun-fbf0df?logo=bun&labelColor=212121&link=bun.sh) [![Formatted with Biome](https://img.shields.io/badge/Formatted_with-Biome-60a5fa?style=flat&logo=biome&labelColor=212121)](https://biomejs.dev/)
+
+<!-- markdownlint-disable-next-line no-inline-html -->
+<br>
+
 <!-- markdownlint-capture -->
-<!-- markdownlint-disable no-inline-html first-line-h1 heading-start-left -->
+<!-- markdownlint-disable no-inline-html heading-start-left -->
 <div align="center">
   <a href="https://github.com/cli-stuff/apr">
     <img src="./assets/logo.svg" alt="apr" width="200" />
