@@ -4,13 +4,13 @@ on:
   # https://blog.esciencecenter.nl/reduce-reuse-recycle-save-the-planet-one-github-action-at-a-time-4ab602255c3f
   push:
     paths:
-      - 'src/**'
-      - 'tests/**'
+      - 'src/'
+      - 'tests/'
 
   pull_request:
     paths:
-      - 'src/**'
-      - 'tests/**'
+      - 'src/'
+      - 'tests/'
 
   workflow_dispatch:
 
