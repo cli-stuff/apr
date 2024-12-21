@@ -1,5 +1,22 @@
 # Changelog
 
+## v0.0.2
+
+[compare changes](https://github.com/cli-stuff/apr/compare/v1.0.0...v0.0.2)
+
+### 🩹 Fixes
+
+- Fix Biome formatter ([20f0c5a](https://github.com/cli-stuff/apr/commit/20f0c5a))
+- **deps:** Move `@types/react` to `devDependencies` ([4f0c59c](https://github.com/cli-stuff/apr/commit/4f0c59c))
+
+### 🏡 Chore
+
+- 🍱 manually update CHANGELOG for v1.0.0 release ([7df5050](https://github.com/cli-stuff/apr/commit/7df5050))
+
+### ❤️ Contributors
+
+- Okinea Dev ([@okineadev](http://github.com/okineadev))
+
 ## v1.0.0
 
 ### 🚀 Enhancements
