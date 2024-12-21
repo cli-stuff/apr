@@ -1,5 +1,5 @@
 {
-	"name": "apr",
+	"name": "aboutproject",
 	"version": "0.0.0",
 	"main": "src/index.tsx",
 	"module": "src/index.tsx",

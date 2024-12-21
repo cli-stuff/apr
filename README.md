@@ -14,9 +14,9 @@
 ## 📥 Installation
 
 ```bash
-bun i -g apr
-yarn global add apr
-npm i -g apr
+bun i -g aboutproject
+npm i -g aboutproject
+yarn global add aboutproject
 ```
 
 ## 🚀 Usage
