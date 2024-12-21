@@ -1,8 +1,28 @@
 # Changelog
 
+## v1.0.0
+
+### 🚀 Enhancements
+
+- **ci:** 🚀 add version input to publish workflow ([f76b631](https://github.com/cli-stuff/apr/commit/f76b631))
+
+### 🩹 Fixes
+
+- **docs:** Fix badges links and alt texts ([58f1312](https://github.com/cli-stuff/apr/commit/58f1312))
+
+### 📖 Documentation
+
+- Add cool badges in readme ([ee873e8](https://github.com/cli-stuff/apr/commit/ee873e8))
+
+### 🏡 Chore
+
+- 🍱  rename `example.png` to `screenshot.png` in `assets` folder ([80fe5dc](https://github.com/cli-stuff/apr/commit/80fe5dc))
+
+### ❤️ Contributors
+
+- Okinea Dev ([@okineadev](http://github.com/okineadev))
 
 ## v0.0.1
-
 
 ### 🚀 Enhancements
 
@@ -37,4 +57,3 @@
 ### ❤️ Contributors
 
 - Okinea Dev ([@okineadev](http://github.com/okineadev))
-
