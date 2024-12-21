@@ -1,0 +1,37 @@
+{
+	"name": "some-cool-package",
+	"version": "0.8.2",
+	"description": "🚀 A modern toolkit for building awesome things",
+	"main": "src/index.ts",
+	"type": "module",
+	"private": false,
+	"author": {
+		"name": "Example Developer",
+		"email": "dev@example.com",
+		"url": "https://example.com"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/example/some-cool-package",
+	"bugs": {
+		"url": "https://github.com/example/some-cool-package/issues",
+		"email": "support@example.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/example/some-cool-package.git"
+	},
+	"keywords": ["cool", "awesome", "toolkit", "typescript", "modern", "bun"],
+	"scripts": {
+		"test": "bun test",
+		"start": "bun run src/index.ts",
+		"check": "biome check .",
+		"format": "biome format ."
+	},
+	"dependencies": {
+		"react": "^18.2.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.4.1",
+		"bun-types": "latest"
+	}
+}

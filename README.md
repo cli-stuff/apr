@@ -1,7 +1,9 @@
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable no-inline-html first-line-h1 heading-start-left -->
 <div align="center">
-  <img src="./assets/logo.svg" alt="apr" width="200" />
+  <a href="https://github.com/cli-stuff/apr">
+    <img src="./assets/logo.svg" alt="apr" width="200" />
+  </a>
 
   # apr
 
@@ -25,6 +27,12 @@ Just run `apr` in any directory containing a `package.json`:
 apr
 ```
 
+### 📸 Screenshot
+
+<!-- markdownlint-disable-next-line no-inline-html -->
+<img src="./assets/example.png" alt="screenshot" width="600" />
+
+
 ## ✨ Features
 
 - 📦 Beautiful terminal UI
@@ -33,6 +41,20 @@ apr
 - 🎨 Colored output for better readability
 - 🚀 Zero configuration needed
 
+## ❤️ Support
+
+If you like this project, consider supporting it by starring ⭐ it on GitHub, sharing it with your friends, or buying me a coffee ☕:
+
+- https://send.monobank.ua/jar/6rUVs4yasg
+- https://donatello.to/okineadev
+
+## 🙏 Credits
+
+Thanks to these packages, this project works:
+
+- [ink](https://github.com/vadimdemedes/ink) - React for CLIs
+- [ink-divider](https://github.com/JureSotosek/ink-divider) - Divider component for Ink
+
 ## 📝 License
 
-MIT
+MIT © [Okinea Dev](https://github.com/okineadev)
