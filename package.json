@@ -1,0 +1,53 @@
+{
+	"name": "apr",
+	"version": "0.0.0",
+	"main": "src/index.tsx",
+	"module": "src/index.tsx",
+	"bin": {
+		"apr": "dist/index.js"
+	},
+	"type": "module",
+	"author": {
+		"name": "Okinea Dev",
+		"url": "https://okinea.dev"
+	},
+	"bugs": {
+		"url": "https://github.com/cli-stuff/apr/issues"
+	},
+	"license": "MIT",
+	"description": "📊 Get information about a Node.js project in the terminal in the beautiful TUI",
+	"keywords": [
+		"cli",
+		"nodejs",
+		"terminal",
+		"tui",
+		"project-info"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cli-stuff/apr"
+	},
+	"homepage": "https://github.com/cli-stuff/apr",
+	"scripts": {
+		"lint": "biome check --fix",
+		"format": "biome format --write .",
+		"preversion": "bun run format && git add .",
+		"build": "bun build ./src/index.tsx --minify --outdir ./dist --target node --footer '// Built with Bun! (https://bun.sh)' --external=yoga-wasm-web",
+		"prepublishOnly": "bun run build"
+	},
+	"dependencies": {
+		"@types/react": "^19.0.2",
+		"ink": "^5.1.0",
+		"ink-divider": "^4.0.2",
+		"ink-link": "^4.1.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"@schemastore/package": "^0.0.10",
+		"@types/bun": "^1.1.14",
+		"ink-testing-library": "^4.0.0"
+	},
+	"patchedDependencies": {
+		"ink@5.1.0": "patches/ink@5.1.0.patch"
+	}
+}
