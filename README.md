@@ -32,7 +32,6 @@ apr
 <!-- markdownlint-disable-next-line no-inline-html -->
 <img src="./assets/example.png" alt="screenshot" width="600" />
 
-
 ## ✨ Features
 
 - 📦 Beautiful terminal UI
@@ -45,8 +44,8 @@ apr
 
 If you like this project, consider supporting it by starring ⭐ it on GitHub, sharing it with your friends, or buying me a coffee ☕:
 
-- https://send.monobank.ua/jar/6rUVs4yasg
-- https://donatello.to/okineadev
+- <https://send.monobank.ua/jar/6rUVs4yasg>
+- <https://donatello.to/okineadev>
 
 ## 🙏 Credits
 
