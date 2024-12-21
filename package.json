@@ -1,6 +1,6 @@
 {
 	"name": "aboutproject",
-	"version": "0.0.2",
+	"version": "1.0.0",
 	"main": "src/index.tsx",
 	"module": "src/index.tsx",
 	"bin": {
