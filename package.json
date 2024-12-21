@@ -32,7 +32,7 @@
 		"prepublishOnly": "bun run build"
 	},
 	"lint-staged": {
-		"*": "bun run format"
+		"*": "bun run format --no-errors-on-unmatched --files-ignore-unknown=true"
 	},
 	"dependencies": {
 		"ink": "^5.1.0",
