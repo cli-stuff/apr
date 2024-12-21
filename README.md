@@ -36,7 +36,7 @@ apr
 ### 📸 Screenshot
 
 <!-- markdownlint-disable-next-line no-inline-html -->
-<img src="./assets/example.png" alt="screenshot" width="600" />
+<img src="./assets/screenshot.png" alt="screenshot" width="600" />
 
 ## ✨ Features
 
