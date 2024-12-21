@@ -31,7 +31,8 @@ const ProjectInfo = ({ pkg }: { pkg: JSONSchemaForNPMPackageJsonFiles }) => (
 		{pkg.version && <DetailItem label="🔖 Version">{pkg.version}</DetailItem>}
 		{pkg.author?.name && (
 			<DetailItem label="👤 Author">
-				<Link url={pkg.author?.url || ''}>{pkg.author.name}</Link>
+				{pkg.author.name}
+				{pkg.author.url && ` (${pkg.author.url})`}
 			</DetailItem>
 		)}
 		{pkg.license && <DetailItem label="📄 License">{pkg.license}</DetailItem>}
