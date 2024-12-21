@@ -3,7 +3,9 @@ import type { JSONSchemaForNPMPackageJsonFiles } from '@schemastore/package'
 import { render } from 'ink-testing-library'
 import ProjectInfo from '../src/components/ProjectInfo'
 
-// @ts-expect-error
+/**
+ * The dummy package.json file from the playground directory.
+ */ // @ts-expect-error
 const pkg: JSONSchemaForNPMPackageJsonFiles = await import(
 	'./playground/package.json',
 	{

@@ -1,9 +1,13 @@
 import type { JSONSchemaForNPMPackageJsonFiles } from '@schemastore/package'
 import { Box, Newline, Text } from 'ink'
 import Divider from 'ink-divider'
-import Link from 'ink-link'
 import DetailItem from './DetailItem'
 
+/**
+ * Display information about the project.
+ *
+ * @param pkg The `package.json`.
+ */
 const ProjectInfo = ({ pkg }: { pkg: JSONSchemaForNPMPackageJsonFiles }) => (
 	<Box
 		borderStyle="round"
