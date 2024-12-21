@@ -37,8 +37,7 @@
 	"dependencies": {
 		"@types/react": "^19.0.2",
 		"ink": "^5.1.0",
-		"ink-divider": "^4.0.2",
-		"ink-link": "^4.1.0"
+		"ink-divider": "^4.0.2"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
