@@ -1,5 +1,21 @@
 # Changelog
 
+## v1.0.2
+
+[compare changes](https://github.com/cli-stuff/apr/compare/v1.0.1...v1.0.2)
+
+### 🩹 Fixes
+
+- Fix executable ([c1d007e](https://github.com/cli-stuff/apr/commit/c1d007e))
+
+### 📖 Documentation
+
+- ✏️ Add CONTRIBUTING.md file ([2683944](https://github.com/cli-stuff/apr/commit/2683944))
+
+### ❤️ Contributors
+
+- Okinea Dev ([@okineadev](http://github.com/okineadev))
+
 ## v1.0.1
 
 [compare changes](https://github.com/cli-stuff/apr/compare/v1.0.0...v1.0.1)
