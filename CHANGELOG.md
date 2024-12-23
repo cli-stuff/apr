@@ -1,5 +1,31 @@
 # Changelog
 
+## v1.1.0
+
+[compare changes](https://github.com/cli-stuff/apr/compare/v1.0.2...v1.1.0)
+
+### 🚀 Enhancements
+
+- ✨ handle missing `package.json` error gracefully ([1485cd0](https://github.com/cli-stuff/apr/commit/1485cd0))
+
+### 🩹 Fixes
+
+- Fix lint-staged configuration ([1456c5c](https://github.com/cli-stuff/apr/commit/1456c5c))
+
+### 💅 Refactors
+
+- ♻️ `biome.json` and `package.json` configurations ([df35e1b](https://github.com/cli-stuff/apr/commit/df35e1b))
+
+### 🏡 Chore
+
+- 🔧 remove react import in `index.tsx` ([a1d13f1](https://github.com/cli-stuff/apr/commit/a1d13f1))
+- 🔧 update TypeScript configuration ([46e9ee2](https://github.com/cli-stuff/apr/commit/46e9ee2))
+- 🔧 enable VCS in `biome.json` and refactor scripts in `package.json` ([dac257e](https://github.com/cli-stuff/apr/commit/dac257e))
+
+### ❤️ Contributors
+
+- Okinea Dev ([@okineadev](http://github.com/okineadev))
+
 ## v1.0.2
 
 [compare changes](https://github.com/cli-stuff/apr/compare/v1.0.1...v1.0.2)
