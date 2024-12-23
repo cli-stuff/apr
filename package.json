@@ -4,7 +4,8 @@
 	"main": "src/index.tsx",
 	"module": "src/index.tsx",
 	"bin": {
-		"apr": "dist/index.js"
+		"apr": "dist/index.js",
+		"aboutproject": "dist/index.js"
 	},
 	"type": "module",
 	"author": {
