@@ -23,6 +23,7 @@
 		"url": "git+https://github.com/cli-stuff/apr"
 	},
 	"homepage": "https://github.com/cli-stuff/apr",
+	"funding": "https://github.com/cli-stuff/apr?sponsor=1",
 	"scripts": {
 		"lint": "biome check --fix",
 		"format": "biome format --write",
