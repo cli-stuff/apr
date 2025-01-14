@@ -38,16 +38,16 @@
 	},
 	"dependencies": {
 		"ink": "^5.1.0",
-		"ink-divider": "^4.0.2"
+		"ink-divider": "^4.1.0"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
 		"@schemastore/package": "^0.0.10",
-		"@types/bun": "^1.1.14",
-		"@types/react": "^19.0.2",
+		"@types/react": "^18.3.14",
+		"bun-types": "^1.1.43",
 		"husky": "^9.1.7",
 		"ink-testing-library": "^4.0.0",
-		"lint-staged": "^15.2.11"
+		"lint-staged": "^15.3.0"
 	},
 	"patchedDependencies": {
 		"ink@5.1.0": "patches/ink@5.1.0.patch"
