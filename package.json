@@ -28,7 +28,7 @@
 		"lint": "biome check --fix",
 		"format": "biome format --write",
 		"test": "FORCE_COLOR=true bun test",
-		"build": "bun build ./src/index.tsx --minify --outdir ./dist --target node --footer '// Built with Bun! (https://bun.sh)' --external=yoga-wasm-web",
+		"build": "bun build ./src/index.tsx --minify --outdir ./dist --target node --footer '// Built with Bun! (https://bun.sh)' --packages=external",
 		"prepare": "husky",
 		"preversion": "bun run format && git add .",
 		"prepublishOnly": "bun run build"
