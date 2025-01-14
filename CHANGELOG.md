@@ -1,5 +1,22 @@
 # Changelog
 
+## v1.1.1
+
+[compare changes](https://github.com/cli-stuff/apr/compare/v1.1.0...v1.1.1)
+
+### 🔥 Performance
+
+- ⚡ reduce bundle size ([154eb2e](https://github.com/cli-stuff/apr/commit/154eb2e))
+
+### 🏡 Chore
+
+- 💵 update funding links in `README.md` and `package.json` ([c952bfa](https://github.com/cli-stuff/apr/commit/c952bfa))
+- 🔒 use text-based Bun lockfile ([25165c0](https://github.com/cli-stuff/apr/commit/25165c0))
+
+### ❤️ Contributors
+
+- Okinea Dev ([@okineadev](http://github.com/okineadev))
+
 ## v1.1.0
 
 [compare changes](https://github.com/cli-stuff/apr/compare/v1.0.2...v1.1.0)
