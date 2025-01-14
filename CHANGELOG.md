@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.1.3
+
+[compare changes](https://github.com/cli-stuff/apr/compare/v1.1.2...v1.1.3)
+
+### 🏡 Chore
+
+- 🔒 update `@types/react` and add `react` as a peer dependency ([455d1de](https://github.com/cli-stuff/apr/commit/455d1de))
+
+### ❤️ Contributors
+
+- Okinea Dev ([@okineadev](http://github.com/okineadev))
+
 ## v1.1.2
 
 [compare changes](https://github.com/cli-stuff/apr/compare/v1.1.1...v1.1.2)
