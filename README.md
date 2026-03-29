@@ -17,6 +17,9 @@
 </div>
 <!-- markdownlint-restore -->
 
+> [!WARNING]
+> This project was made for fun, the project has been archived, so there will be no more updates.
+
 ## 📥 Installation
 
 ```bash
